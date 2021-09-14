@@ -8,6 +8,9 @@ on:
 jobs:
   echo:
     runs-on: ubuntu-latest
+    defaults:
+      run:
+        working-directory: ./webapp3
     steps:
       - name: echo
         run: npm run echo
