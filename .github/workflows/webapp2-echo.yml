@@ -1,0 +1,13 @@
+name: 'webapp2 run'
+
+on:
+  push:
+    paths:
+      - 'webapp2/**'
+
+jobs:
+  echo:
+    runs-on: ubuntu-latest
+    steps:
+      - name: echo
+        run: npm run echo
