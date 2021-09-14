@@ -1,11 +1,9 @@
-name: 'webapp2 release'
+name: 'Release drafter'
 
 on:
   push:
     branches:
       - main
-    paths:
-      - 'webapp2/**'
 
 jobs:
   update_release_draft:
