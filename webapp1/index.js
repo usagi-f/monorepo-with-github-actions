@@ -1,1 +1,1 @@
-console.log('webapp1!');
+console.log('webapp1');
