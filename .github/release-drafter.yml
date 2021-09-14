@@ -1,5 +1,15 @@
 name-template: 'v$NEXT_PATCH_VERSION 🌈'
 tag-template: 'v$NEXT_PATCH_VERSION'
+categories:
+  - title: 'WebApp1'
+    labels:
+      - 'webapp1'
+  - title: 'WebApp2'
+    labels:
+      - 'webapp2'
+  - title: 'WebApp3'
+    labels:
+      - 'webapp3'
 template: |
   ## :pushpin: 変更点
   $CHANGES
